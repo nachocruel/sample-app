@@ -38,6 +38,7 @@ end
 
 group :production do
 gem 'pg'
+gem 'thin'
 end
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
