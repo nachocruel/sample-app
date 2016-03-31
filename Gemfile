@@ -9,6 +9,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 gem 'sqlite3'
+gem 'wdm', '>= 0.1.0'
 end
 
 group :assets do
@@ -76,4 +77,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'wdm', '>= 0.1.0'
